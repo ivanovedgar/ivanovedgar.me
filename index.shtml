@@ -49,15 +49,7 @@
   financially independent from my parents and achieved consistent marks of 60% upwards at
   University for the assignments and exams. </p>
   
-  <p>At the moment I am a Computer Science finalist at Aberystwyth University on track for a 2:1 degree with genuine passion for
-  hardware and proven troubleshooting skills. I returned back to my studies in September
-  after an Industrial Year that I have spent as an ICT technician in Information Services
-  department of Aberystwyth University. </p>
-  
-  <p>My final year at University will soon come to an
-  end and it will be the time to open a new door...</p>
-  <hr/>
-
+  <p>At the moment I am a employed by the flash sale company in London. </p>
   
   <h3><a name="portfolio" id="portfolio">Portfolio</a></h3>
   <p>My <a href="https://github.com/ivanovedgar?tab=repositories">github</a> account with
@@ -84,7 +76,6 @@
       src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
   </p>
  
-	<!--last modified//-->
-	<script type="text/javascript">modified()</script>
+	<!--#include virtual="lastmodified.shtml"-->
 </body>
 </html>
