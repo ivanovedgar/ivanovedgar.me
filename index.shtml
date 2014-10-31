@@ -18,10 +18,10 @@
 </script>
 </head>
 
-<body bgcolor="#FFFFFF" text="#000000">
+<body>
   <h2>Edgar's Web Site</h2>
 
-  <h3><a name="contents" id="contents">CONTENTS</a></h3>
+  <h3><a id="contents">CONTENTS</a></h3>
 	  <ol>
 		<li><a href="#hello">Hello and Welcome</a></li>
 		<li><a href="#about">About Me</a></li>
@@ -31,12 +31,12 @@
 	  </ol>
   <hr />
 
-  <h3><a name="hello" id="hello">Hello and Welcome</a></h3>
+  <h3><a id="hello">Hello and Welcome</a></h3>
   <p>This is a personal web space which was set up to describe myself for the potential
   employers and for personal purposes. It is hosted on my own VPS, running CentOS with LAMP stack. One of my future plans includes adding the web picture gallery.</p>
   <hr/>
 
-  <h3><a name="about" id="about">About Me</a></h3>
+  <h3><a id="about">About Me</a></h3>
   <p>I&rsquo;ve always loved travelling. No wonder that I ended up studying 2000km away
   from home &ndash; I still remember the day when my plane has first landed in Birmingham
   on September 22, 2010.</p>
@@ -49,23 +49,35 @@
   financially independent from my parents and achieved consistent marks of 60% upwards at
   University for the assignments and exams. </p>
   
-  <p>At the moment I am a employed by the flash sale company in London. </p>
+  <p>At the moment I am a Computer Science finalist at Aberystwyth University on track for a 2:1 degree with genuine passion for
+  hardware and proven troubleshooting skills. I returned back to my studies in September
+  after an Industrial Year that I have spent as an ICT technician in Information Services
+  department of Aberystwyth University. </p>
   
-  <h3><a name="portfolio" id="portfolio">Portfolio</a></h3>
+  <p>My final year at University will soon come to an
+  end and it will be the time to open a new door...</p>
+  <hr/>
+
+  
+  <h3><a id="portfolio">Portfolio</a></h3>
   <p>My <a href="https://github.com/ivanovedgar?tab=repositories">github</a> account with
   some code samples.</p>
 
   <p>My industrial year placement <a href=
   "http://ivanovedgar.wordpress.com">blog</a>.</p>
 
-  <h3><a name="work_experience" id="work_experience">Work Experience</a></h3>
+  <p>I constructed this <a href="./cs15020/">website</a> for
+  the assignment in my second year, it was written completely from scratch.</p>
+  <hr/>
+
+  <h3><a id="work_experience">Work Experience</a></h3>
   <p>Aberystwyth University, Information Services - Aberystwyth, UK</p>
   <p><i>Customer Services Assistant, August 2013 - June 2014</i></p>
   <p>Aberystwyth University, Information Services - Aberystwyth, UK</p>
   <p><i>Industrial Year Placement, July 2012 - August 2013</i></p>
   <hr/>
   
-  <h3><a name="education" id="education">Education</a></h3>
+  <h3><a id="education">Education</a></h3>
   <p>Aberystwyth University - Aberystwyth, UK</p>
   <p><i>BSc (Hons) Mobile And Wearable Computing, 2:2, (Inc Integrated Industrial And Professional Training), September 2010 - June 2014</i></p>
   <p>A. Puskin Gymnasium - Kaunas, Lithuania</p>
@@ -76,6 +88,7 @@
       src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
   </p>
  
-	<!--#include virtual="lastmodified.shtml"-->
+	<!--last modified//-->
+	<script type="text/javascript">modified()</script>
 </body>
 </html>
